@@ -9,10 +9,10 @@ var $fm = {
   eat: function(name) { document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT;'; console.log('Yummy cookies!');}
  },
   forumData: {
-  username: return _userdata.username;
-  guest: function () { if(_userdata.session_logged_in = 0) { return true; }else{ return false; } }
-  member: function() { if(_userdata.session_logged_in = 1) { return true; }else{ return false; } }
-  memberAvatar: return _userdata.avatar;
+  username: return _userdata.username,
+  guest: function () { if(_userdata.session_logged_in = 0) { return true; }else{ return false; } },
+  member: function() { if(_userdata.session_logged_in = 1) { return true; }else{ return false; } },
+  memberAvatar: return _userdata.avatar
  }
 };
 // a few traps. lol
