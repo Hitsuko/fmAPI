@@ -19,7 +19,7 @@ Grab the value of the desired cookie. This function was made using `my_getcookie
 `name` was the name of the cookie that you want to search for the value.
 
 ### `$fm.cookie.eat(name)`
-Delete a cookie.
+Delete a cookie. Fun fact: after you'd delete a cookie, the word 'Yummy cookie!' would appear in your console.
 
 #### Parameters
 `name` was the name of the cookie you want to delete.
