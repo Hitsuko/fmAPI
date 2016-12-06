@@ -1,7 +1,6 @@
 (function() {
  $fm = {
-  version:"1.4.6",
-  author:"Hitsu",
+  currentVer:"1.4.6",
   cookie: {
    cook: function(name,value) { my_setcookie(name,value); },
    take: function(name) { return my_getcookie(name); },
@@ -25,6 +24,11 @@
    }
   }
  };
-  if($fm.version != "1.4.6") { $fm = false; console.log("Please update to 1.4.6 first."); }
-  if($fm.author != "Hitsu") { document.innerHTML = "The original author of fmAPI was Hitsu. Don't steal from her."; }
+  $.getJSON("https://hitsuserver.000webhostapp.com/javascripts/fmapi.json", function(data) {
+   var datas = [];
+   $.each(data, function() {
+    if(currentVer != //ongoing) {
+       }
+     });
+  });
 }());
